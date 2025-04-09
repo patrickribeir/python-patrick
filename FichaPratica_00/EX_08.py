@@ -13,9 +13,9 @@ valorDosMinsEmSeg = (musc1min + musc2min + musc3min + musc4min + musc5min) * 60
 # soma dos valores dos mins convertidos em seg + a soma dos segundos ja existentes
 valorTotalSeg = valorDosMinsEmSeg + musc1seg + musc2seg + musc3seg + musc4seg + musc5seg
 #valor total em segundos divididos por horas, para descobrir quantas horas cabem dentro do total de segundos
-totalHoras = int(valorTotalSeg / 3600)
+totalHoras = int(valorTotalSeg // 3600)
 #usamos % para saber quantos mins cabem dentro dos seg restantes. 
-totalMins = int((valorTotalSeg % 3600) / 60)
+totalMins = int((valorTotalSeg % 3600) // 60)
 # % novamente para descobrir o valor restante em, minutos
 totalSeg = int (valorTotalSeg % 60)
 #para o programa rodar, tive que add str na frente de resultado numerico para tornar uma string.
