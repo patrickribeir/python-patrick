@@ -7,6 +7,6 @@ if salario <= 15000:
 else:
     imposto = salario * 0.30
 
-print (f"o valor do importo é: {imposto}")
+print (f"O valor do importo é: {imposto}")
 
 
