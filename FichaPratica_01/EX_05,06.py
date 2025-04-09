@@ -1,12 +1,16 @@
-numero1 = int(input("insira o 1 numero: "))
-numero2 = int(input("insira o 2 numero: "))
-
+numero1 = int(input("Vamos descobrir qual número é maior e qual é menor! Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número:"))
+ 
 if numero1 > numero2:
     maior = numero1
     menor = numero2
-
+    print(f"O maior número é = {maior} e o menor número é = {menor}")
+ 
+elif numero1 == numero2:
+    print("Os números são iguais. Digite números diferentes.")
+ 
 else:
-    menor = numero1
     maior = numero2
-
-print (f"O numero maior é: {maior} e o numero menor é: {menor}")
+    menor = numero1
+ 
+    print(f"O maior número é = {maior} e o menor número é = {menor}")

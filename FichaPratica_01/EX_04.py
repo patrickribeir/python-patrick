@@ -25,6 +25,6 @@ elif posicaoFinal == 8:
     pontos = 1
 
 else:
-    pontos = 0
+    pontos = "Não ganhou pontos"
 
 print (f"Sua pontuação foi: {pontos} pontos!")
