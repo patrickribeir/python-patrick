@@ -12,3 +12,5 @@ while True:
     else:
         sum+=number
         count+=1
+
+        #mais perdido que cego em tiroteio
