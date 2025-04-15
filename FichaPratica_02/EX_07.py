@@ -5,3 +5,5 @@ while tmpNumber>=-5 and tmpNumber<=5:
     if tmpNumber!=0:
         print(number+tmpNumber)
     tmpNumber+=1
+
+    # nao entendi nada disso

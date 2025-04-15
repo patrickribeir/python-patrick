@@ -1,7 +1,8 @@
 numInicial = int(input("Digite o numero inteiro de inicio, qrido: "))
 numFinal = int(input("Digite o numero inteiro de fim, qrido: "))
 
+numero = numInicial
 
-while numInicial <= numFinal:
-    print (numInicial)
-    numInicial += 1
+while numero <= numFinal:
+    print (numero)
+    numero += 1
