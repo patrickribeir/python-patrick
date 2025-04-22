@@ -26,4 +26,4 @@ print ("[51.75]", contador_51_75)
 print ("[76.100]", contador_76_100)
 
 
-# nem a prof conseguiu resolver, vida que segue. 
+#Pedir ajuda 
