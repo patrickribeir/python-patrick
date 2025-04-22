@@ -5,7 +5,7 @@ count=2
 #Verifies if the number is prime number or not and prints the result.
 #Prime number is a number that is only divisible by 1 and itself
 
-while count<=number:
+for i in range(1000):
     if number%count==0:
         if number==count:
             print("Number",number,"is a prime number!")
@@ -15,4 +15,3 @@ while count<=number:
             break
     else:
         count+=1    
-        
