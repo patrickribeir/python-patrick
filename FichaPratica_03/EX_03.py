@@ -8,9 +8,13 @@ numberToGuess=int(input("What number do you want player 2 to guess?"))
 
 for i in range(100000):
     numberGuessed=int(input("What is the number you want to try?"))
-
+ 
     if numberGuessed!=numberToGuess:
         print("Wrong answer! Try again!")
+        if numberGuessed<numberToGuess:
+            print("The number to guess is higher!")
+        else:
+            print("The number to guess is lower!")
         count+=1
     else:
         print("You got it! The number is",numberGuessed,".\nYou needed",count,"tries to guess the correct number!")

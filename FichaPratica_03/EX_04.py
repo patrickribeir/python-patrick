@@ -17,13 +17,13 @@ while count<=number:
         count+=1    
 
 #Or you can do this
-for i in number:
-    if number%count==0:
-        if number==count:
-            print("Number",number,"is a prime number!")
-            break
-        else:
-            print("Number",number,"isn't a prime number!")
-            break
-    else:
-        count+=1    
+#for i in number:
+ #   if number%count==0:
+  #      if number==count:
+   #         print("Number",number,"is a prime number!")
+    #        break
+     #   else:
+      #      print("Number",number,"isn't a prime number!")
+       #     break
+    #else:
+     #2   count+=1    

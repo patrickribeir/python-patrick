@@ -1,6 +1,6 @@
 option="0"
 
-for i in range(100000000):
+for i in range(100):
     #Asks the user to choose the option
     option=input("Select an option from the Menu:\n1 - Create\n2 - Update\n3 - Delete\n4 - Exit\n")
 
