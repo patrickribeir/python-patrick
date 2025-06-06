@@ -1,5 +1,5 @@
-numeros =[1, 2, 3]
+matriz_identidade = [[1 if x == y else 0 for y in range(3)] for x in range(3)]
 
-dobrados = [ n * 2 for n in numeros]
 
-print(dobrados)
+for X in matriz_identidade:
+    print(X)

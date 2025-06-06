@@ -5,7 +5,7 @@ dicionario = {
 }
 #1
 for key in dicionario:
-    print ( dicionario[key]["Nome"])
+    print(key)
 
 
 #2
